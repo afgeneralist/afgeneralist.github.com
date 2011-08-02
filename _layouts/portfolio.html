@@ -1,0 +1,37 @@
+{% include settings.html %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="{{meta_description}}" />
+
+	<title>{{ page.title }}{% if page.title %} &#9733; {% endif %}{{name}}</title>
+
+	<link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" title="{{name}}" charset="utf-8" />
+	
+	<!--
+		Hello Code-Reader! This website is built using "you.github.com" - by Sumeet Jain.
+		It's a simple website shell using Jekyll and is (probably) hosted with GitHub Pages.
+		Check it out if you're curious: https://github.com/sumeetjain/you.github.com
+	 -->
+	
+	{% include ga.html %}
+</head>
+
+<body id="portfolio">
+	<h1>{{ page.title }}</h1>
+	{{ content }}
+	
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(".portfolioGallery img").click(function(){
+			var imgSrc = $(this).attr("src");
+			$("#portfolioFeature").html('<img src="' + imgSrc + '" />');
+		});
+	</script>
+</body>
+</html>

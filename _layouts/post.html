@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% include settings.html %}
+
+<ul id="listing" class="navList">
+{% for post in site.posts %}
+	{% assign categoryMatch = false %}
+	
+	{% for postCategory in post.category %}
+		{% if page.category contains postCategory %}
+			{% assign categoryMatch = true %}
+		{% endif %}
+	{% endfor %}
+	
+	{% if categoryMatch %}
+		<li class="{% if post.title == page.title %}currentPost{% endif %}"><a href="{{ post.url }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+
+<div id="post" class="{{ page.category }}Category">
+	<div id="intro">
+		{% for pageCategory in page.category %}
+			<a class="backLink" href="/{{ pageCategory }}" title="Return to index">
+				{% if pageCategory == "tech" %}
+					Tech Writings
+				{% else %}
+					{{ pageCategory }}
+				{% endif %}
+			</a>
+			
+			{% unless forloop.last %}, {% endunless %}
+		{% endfor %} 
+
+		&#9733; Subscribe: <a class="subscribe" href="/atom.xml">All</a> | 
+		
+		{% for pageCategory in page.category %}
+			{% if pageCategory == "tech" %}
+				<a class="subscribe" href="/{{pageCategory}}/atom.xml">Tech Writings</a>
+			{% else %}
+				<a class="subscribe" href="/{{pageCategory}}/atom.xml">{{ pageCategory }}</a>
+			{% endif %}
+			
+			{% unless forloop.last %}|{% endunless %} 
+		{% endfor %}
+	</div>
+	
+	<div id="postNav">
+		<span class="date">{{ page.date | date_to_string }}</span>
+	</div>
+	
+	<h1><a href="/{{ page.category }}">{{ page.title }}</a></h1>
+	{{ content }}
+	
+	<div id="postActions">
+		{% include share.html %}
+		
+		{% if page.category == 'photos' %}
+			<p><a href="http://flickr.com/photos/{{flickr}}">View all of my photos on Flickr &#8594;</a></p>
+		{% endif %}
+		
+		{% if page.hn %}
+			<p><a href="{{ page.hn }}">Discuss this on Hacker News &#8594;</a></p>
+		{% endif %}
+	</div>
+</div>

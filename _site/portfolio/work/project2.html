@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="Freelance web developer. Aspiring philosopher-farmer." />
+
+	<title>Project 2 &#9733; Sumeet Jain</title>
+
+	<link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" title="Sumeet Jain" charset="utf-8" />
+	
+	<!--
+		Hello Code-Reader! This website is built using "you.github.com" - by Sumeet Jain.
+		It's a simple website shell using Jekyll and is (probably) hosted with GitHub Pages.
+		Check it out if you're curious: https://github.com/sumeetjain/you.github.com
+	 -->
+	
+	<!-- Google Analytics code goes in this file. -->
+</head>
+
+<body id="portfolio">
+	<h1>Project 2</h1>
+	<p class="description">E-commerce website for small business selling Indian fashion accessories</p>
+
+<p id="portfolioFeature"><img src="/images/portfolio/project2.png" alt="Project 2 Screenshot" /></p>
+
+<ul class="portfolioGallery clearfix">
+	<li><img src="/images/portfolio/project2.png" /></li>
+	<li><img src="/images/portfolio/project2a.png" /></li>
+	<li><img src="/images/portfolio/project2b.png" /></li>
+	<li><img src="/images/portfolio/project2c.png" /></li>
+</ul>
+
+<p>Built the entire web presence for Sari Saheli products, including a Facebook Page. I managed the logo creation process - which was crowdsourced - and personally designed the website and all marketing collateral.</p>
+
+<p>The website runs on <strong>Shopify</strong> with a highly customized theme built with <strong>Liquid</strong>.</p>
+
+<p><a href="http://sarisaheli.com" target="_top">http://sarisaheli.com</a></p>
+	
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(".portfolioGallery img").click(function(){
+			var imgSrc = $(this).attr("src");
+			$("#portfolioFeature").html('<img src="' + imgSrc + '" />');
+		});
+	</script>
+</body>
+</html>

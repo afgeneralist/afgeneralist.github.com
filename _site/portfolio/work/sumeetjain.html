@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+" %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="Freelance web developer. Aspiring philosopher-farmer." />
+
+	<title>sumeetjain.com &#9733; Sumeet Jain</title>
+
+	<link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" title="Sumeet Jain" charset="utf-8" />
+	
+	<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-12933095-9']);
+_gaq.push(['_trackPageview']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+</head>
+
+<body id="portfolio">
+	<h1>sumeetjain.com</h1>
+	<p class="description">This website: Journal, technical writing, photos, and portfolio - all by yours truly</p>
+
+<p id="portfolioFeature"><img src="/images/portfolio/sumeetjain.png" alt="sumeetjain.com Screenshot" /></p>
+
+<ul class="portfolioGallery clearfix">
+	<li><img src="/images/portfolio/sumeetjain.png" /></li>
+	<li><img src="/images/portfolio/sumeetjain2.png" /></li>
+	<li><img src="/images/portfolio/sumeetjain3.png" /></li>
+</ul>
+
+<p>My website for several years. What do you think?</p>
+
+<p>sumeetjain.com is built using the <strong>Jekyll</strong> blog engine. I've built my own theme from scratch using <strong>Liquid</strong>. The website uses <strong>jQuery</strong> - mostly via a plugin I wrote to handle footnotes in my journal entries.</p>
+
+<p><a href="http://potluckness.com" target="_top">http://sumeetjain.com</a></p>
+	
+	<script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(".portfolioGallery img").click(function(){
+			var imgSrc = $(this).attr("src");
+			$("#portfolioFeature").html('<img src="' + imgSrc + '" />');
+		});
+	</script>
+</body>
+</html>

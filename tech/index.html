@@ -1,0 +1,14 @@
+---
+layout: index
+title: Tech Writings
+feed: /tech/atom.xml
+category: tech
+---
+
+<ul class="navList">
+{% for post in site.posts %}
+	{% if post.category contains "tech" %}
+		<li><a href="{{ post.url }}">{{ post.title }}</a> <span class="date">{{ post.date | date_to_string }}</span></li>
+	{% endif %}
+{% endfor %}
+</ul>

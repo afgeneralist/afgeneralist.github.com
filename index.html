@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+{% include settings.html %}
+
+<div id="home">
+	<a href="/about"><img id="mugshot" src="/images/me.png" alt="Picture of {{name}}" /></a>
+	
+	<h1>Hi, I'm {{name}}. I collect moments.</h1>
+	
+	<ul class="jumpLinks clearfix">
+		<li><a href="/portfolio">Portfolio</a></li>
+		<li><a href="mailto:{{email}}">Email Me</a></li>
+		<li><a href="#why_choose_me">Why Choose Me</a></li>
+		<li><a href="#technical_skills">Technical Skills</a></li>
+	</ul>
+	
+	<p class="work_categories">
+		<strong>Spain</strong> is my home for the foreseeable future.<br />
+		<strong>Web Development</strong> is my newest passion.<br />
+		<strong>Fútbol</strong> runs through my veins.
+	</p>
+	
+	<h2>Featured Work:</h2>
+	<p>Click a thumbnail to view more screenshots and read details about the project.</p>
+	
+	<div class="what_i_do clearfix">
+		<div class="first">
+			<h3>Project 1:</h3>
+			<a href="/portfolio/work/project1.html" rel="lightbox[Projects]; width=700">
+				<img src="/images/portfolio/project1_tn.png" alt="Project 1 Thumbnail" />
+				Online diagnosis for a major healthcare provider - I vetted the designs, implemented the mockups, and integrated the designs into a Java framework.
+			</a>
+		</div>
+		
+		<div>
+			<h3>Project 2:</h3>
+			<a href="/portfolio/work/project2.html" rel="lightbox[Projects]; width=700">
+				<img src="/images/portfolio/project2_tn.png" alt="Project 2 Thumbnail" />
+				I managed brand development, designed the website, and integrated the design into a Shopify theme. I also designed marketing materials like flyers, business cards, and online ads.
+			</a>
+		</div>
+	</div>
+	
+	<div class="what_i_do clearfix">
+		<div class="first">
+			<h3>Project 3:</h3>
+			<a href="/portfolio/work/project3.html" rel="lightbox[Projects]; width=700">
+				<img src="/images/portfolio/project3_tn.png" alt="Project 3 Thumbnail" />
+				Implemented HTML/CSS/Javascript design from mockups.
+			</a>
+		</div>
+		
+		<div>
+			<h3>Project 4:</h3>
+			<a href="/portfolio/work/project4.html" rel="lightbox[Projects]; width=700">
+				<img src="/images/portfolio/project4_tn.png" alt="Project 4 Thumbnail" />
+				Designed and built custom online registration system for the organization's annual music showcase.
+			</a>
+		</div>
+	</div>
+	
+	<h2 id="why_choose_me">Why Choose Me:</h2>
+	<p>I'm the right person for the job. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <em>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</em> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+	<div class="why_choose_me clearfix">
+		<div class="first">
+			<h3>Savvy</h3>
+			<p>Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit <em>esse cillum dolore eu fugiat nulla pariatur.</em> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		
+		<div>
+			<h3>Resolute</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <em>sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
+		</div>
+	</div>
+	
+	<h2 id="technical_skills">Technical Skills</h2>
+	<p>I can hold my own in several development environments. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	
+	<h2>Let's talk!</h2>
+	<p>Email me for a free quote: <a href="{{email}}">{{email}}</a>, or if you'd just like to chat about what kind of website will work best for you. Hope to hear from you soon!</p>
+		
+	<div id="postActions">
+		{% include share.html %}
+		
+		<p><a href="mailto:{{email}}">{{email}}</a></p>
+	</div>
+</div>

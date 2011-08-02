@@ -1,0 +1,12 @@
+{% if post.url %}
+	{% assign shareUrl = post.url %}
+{% elsif page.url %}
+	{% assign shareUrl = page.url %}
+{% endif %}
+
+{% include settings.html %}
+
+<div id="share">
+	<a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{twitter}}">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+	<iframe src="http://www.facebook.com/plugins/like.php?href=http://{{root_url}}{{shareUrl}}&amp;layout=button_count&amp;show_faces=false&amp;width=130&amp;action=like&amp;colorscheme=light&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:visible; width:88px; height:20px; margin-left: 3px;" allowTransparency="true"></iframe>
+</div>

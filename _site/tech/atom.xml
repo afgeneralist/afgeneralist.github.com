@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<title>Tech &#9733; Sumeet Jain</title>
+	<link href="http://sumeetjain.com/tech/atom.xml" rel="self"/>
+	<link href="http://sumeetjain.com/tech"/>
+	<updated>2011-08-02T14:43:35-05:00</updated>
+	<id>http://sumeetjain.com/tech</id>
+	<author>
+		<name>Sumeet Jain</name>
+		<email>hello@sumeetjain.com</email>
+	</author>
+	
+	
+
+	
+		
+	
+		
+			
+				
+			
+				
+					<entry>
+						<title>Example Tech Post</title>
+						<link href="http://sumeetjain.com/tech/2011/08/01/example-tech-post.html"/>
+						<updated>2011-08-01T00:00:00-05:00</updated>
+						<id>http://sumeetjain.com/tech/2011/08/01/example-tech-post</id>
+						<content type="html">
+							&lt;p&gt;A couple days ago, I published my &lt;a href='http://github.com/sumeetjain/jquery-markdown-footnotes'&gt;first open source project&lt;/a&gt;. It&amp;#8217;s tiny and useful only for a small group of people, but I made it myself and am proud of it - and I&amp;#8217;m certain it&amp;#8217;s the first of many. Anyways, today I saw that someone forked it on GitHub. I cannot hope to describe how exciting that is, but I&amp;#8217;ll try.&lt;/p&gt;
+
+&lt;p&gt;What kind of positive feedback do we usually get for our work? If (like me) your history is one of web development for corporations, praise comes in the form of kudos - usually from someone who hasn&amp;#8217;t worked with you (department head) or doesn&amp;#8217;t understand the work you do (manager or client)&lt;sup id='fnref:1'&gt;&lt;a href='#fn:1' rel='footnote'&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;p&gt;The best moments during a project at work are usually those spent in close collaboration with another developer. You&amp;#8217;ll bang your heads on the desk a few times, have an argument or six, and eventually figure out a solution. &lt;em&gt;This is how programmers bond.&lt;/em&gt; And the high-five shared after such an experience is more uplifting than any amount of kudos from a director, manager, or client.&lt;/p&gt;
+
+&lt;p&gt;When I saw that my tiny sliver of the open source pie was forked, I felt like I&amp;#8217;d just shared in one of those excellent post-discovery high-fives. But it was different in a couple ways.&lt;/p&gt;
+
+&lt;p&gt;For one things, I don&amp;#8217;t know this person. It&amp;#8217;s a great feeling to have a stranger walk by your cyber-cubicle, glance at your screen, and say, &lt;em&gt;&amp;#8220;Hey - that looks pretty cool!&amp;#8221;&lt;/em&gt; It&amp;#8217;s also different on a more fundamental level, since this isn&amp;#8217;t code that someone told me to write. This is just a solution to some problem I had. It&amp;#8217;s forking is an indication that at least one other person in the world appreciates the problem and is interested in the solution. It&amp;#8217;s a validation of my effort that - however minute - my work may have an impact on the Web at large.&lt;/p&gt;
+
+&lt;p&gt;Are there parallels to this kind of experience in other industries? Is there another field where collaboration is so immediate, streamlined, or essential? As I struggle to answer these questions, my joy at having become a coder is reinvigorated. I &lt;strong&gt;cannot wait&lt;/strong&gt; for my first pull request.&lt;/p&gt;
+&lt;div class='footnotes'&gt;&lt;hr /&gt;&lt;ol&gt;&lt;li id='fn:1'&gt;
+&lt;p&gt;Clients and managers have the best of intentions, but I have never met or worked with one who can appreciate the elation which results from victory after a day of delicate and creative problem solving. They appreciate results, but good developers love the experience of building, improving, dissecting, and learning about their work.&lt;/p&gt;
+&lt;a href='#fnref:1' rev='footnote'&gt;&amp;#8617;&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;
+						</content>
+					</entry>
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			
+			
+		
+	
+		
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+					<entry>
+						<title>Example Multi-Category Post</title>
+						<link href="http://sumeetjain.com/journal/tech/2011/07/30/example-multi-category-post.html"/>
+						<updated>2011-07-30T00:00:00-05:00</updated>
+						<id>http://sumeetjain.com/journal/tech/2011/07/30/example-multi-category-post</id>
+						<content type="html">
+							&lt;p&gt;It&amp;#8217;s gift-buying time. And whether your process involves driving to a local retailer, browsing Amazon, or scouring Craigslist, you&amp;#8217;re likely to be inundated with so much choice that you&amp;#8217;ll spend most of your time researching to find the best products and deals.&lt;/p&gt;
+
+&lt;p&gt;This is always a source of frustration for shoppers, because most of the time people just want a good value: Something with slightly above-average performance and a reasonable price. And even helpful reviews on Amazon or sites like CNET don&amp;#8217;t narrow the possibilities down to a manageable two or three.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src='http://f.cl.ly/items/b0350b6b2dca2a1427d7/kallow.png' alt='Kallow' /&gt;&lt;/p&gt;
+
+&lt;p&gt;Caleb and Jordan at &lt;a href='http://www.kallow.com'&gt;Kallow&lt;/a&gt; have discovered what I think could be a useful idea - especially at this time of the year: They&amp;#8217;ve chosen 22 product categories (like &lt;em&gt;Digital Camera&lt;/em&gt;, &lt;em&gt;Headphones&lt;/em&gt;, and even &lt;em&gt;Laptop&lt;/em&gt;), researched each - taking into account performance, ease of use, and price - and then listed &lt;strong&gt;one&lt;/strong&gt; recommendation for each category.&lt;/p&gt;
+
+&lt;p&gt;According to them, if you&amp;#8217;re looking for a good deal on a digital camera, you can&amp;#8217;t go wrong with the &lt;a href='http://www.kallow.com/personal-electronics/digital-camera'&gt;Canon PowerShot SD790IS for $179.99&lt;/a&gt;. That&amp;#8217;s a good value, and for the vast majority of shoppers who don&amp;#8217;t care about 3x versus 4x optical zoom, 8 megapixel versus 10 megapixel, and Canon versus Panasonic, it&amp;#8217;s a done deal.&lt;/p&gt;
+
+&lt;p&gt;The beauty of Kallow is that it&amp;#8217;s either a conclusion or a beginning. That is, you might look at Kallow and immediately decide to buy the recommended product. So it&amp;#8217;s the conclusion of your shopping cycle. But some users can use Kallow as the beginning of their shopping cycle by following the product recommendation to Amazon, viewing similar products, and eventually choosing a competitor&amp;#8217;s product. The moral of the story is that you&amp;#8217;re more likely to find a quality deal by beginning your search with a good product than if you began your search from scratch.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m curious to see how the site develops after the holiday season. While cleanliness and simplicity are integral to the site, it goes without saying that more product categories are a must. But beyond that, I think adding a premium level to each category would draw in more of the power-user audience. Properly implemented, such a feature wouldn&amp;#8217;t have to detract from the site&amp;#8217;s ease of use.&lt;/p&gt;
+
+&lt;p&gt;The decision to get prices from and link to Amazon is also something that I think will require revision. It&amp;#8217;s not uncommon for buyers to find better prices at smaller shops. If Kallow is really about recommending quality deals and saving consumers time, it should link to the best deal at a reliable online retailer. Of course, this flies in the face of Kallow&amp;#8217;s &lt;a href='http://sumeetjain.com/little-wisdoms/320/'&gt;business model&lt;/a&gt; (They make money by getting paid every time someone buys one of their recommended products on Amazon.), but I&amp;#8217;m sure Jordan and Caleb can think of some other way to stay in the black.&lt;/p&gt;
+
+&lt;p&gt;Check out &lt;a href='http://www.kallow.com'&gt;Kallow&lt;/a&gt; for yourself, and let me know what you think. Were the recommendations helpful either as conclusions or beginnings? What product categories would you liked to have seen that weren&amp;#8217;t available? Did you tell anyone you know about Kallow?&lt;/p&gt;
+						</content>
+					</entry>
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+				
+					
+				
+			
+				
+			
+			
+			
+		
+	
+		
+	
+</feed>

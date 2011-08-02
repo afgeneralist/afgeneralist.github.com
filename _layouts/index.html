@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div id="index" class="{{ page.category }}Category">
+	<div id="intro">
+		<span>{{ page.title }}</span> &#9733; Subscribe: 
+		<a class="subscribe" href="/atom.xml">All</a> | 
+		<a class="subscribe" href="{{ page.feed }}">{{ page.title }}</a>
+	</div>
+		
+	{{ content }}
+</div>

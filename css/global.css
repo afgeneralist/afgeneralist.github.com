@@ -1,0 +1,438 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, serif;
+}
+body#portfolio{
+	background: #fff;
+	padding: 0 30px;
+}
+#bio, #links, #listing, #postNav, #intro, #postActions, small, h1, h2, h3, h4, h5, h6, blockquote cite, #portfolio p.description, #home .what_i_do, #home .work_categories{
+	font-family: Helvetica, sans-serif;
+}
+.clearfix{
+    zoom: 1;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+}
+p{
+	margin-top: 0;
+	line-height: 1.5;
+}
+blockquote{
+	border-left: 4px solid #370;
+	background: #F6FFED;
+	margin-left: 0;
+	padding: 10px 10px 10px 30px;
+}
+blockquote cite{
+	font-size: 12px;
+}
+a{
+	text-decoration: none;
+	color: #370;
+}
+a:hover{
+	background: #370;
+	color: #fff;
+}
+a img{
+	border: none;
+}
+h1, h1 a{
+	color: #333;
+}
+h1 a:hover{
+	background: #333;
+	color: #fff;
+}
+h2, h3{
+	color: #666;
+	margin: 1em 0 0.4em;
+}
+h2 strong{
+	background: #666;
+	color: #fff;
+	padding: 0 4px;
+}
+h4, h5{
+	color: #999;
+	margin: 1em 0 0.3em;
+}
+sup a{
+	padding: 0 1px;
+	font-size: 14px;
+}
+.closeFootnote:hover{
+	background: transparent;
+}
+.navList,
+.gallery_list,
+.jumpLinks,
+.portfolioGallery{
+	font-size: 12px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navList li{
+	margin: 0 0 9px;
+}
+.navList a,
+.jumpLinks a{
+	padding: 3px 6px;
+}
+.gallery_list li{
+	width: 500px;
+	margin: 0 0 30px 0;
+}
+.gallery_list div{
+	/*height: 100px;
+		overflow: hidden;*/
+	margin: 0 0 7px;
+	/*-webkit-box-shadow: 0px 0px 7px #ccc;
+		-moz-box-shadow: 0px 0px 7px #ccc;*/
+}
+.gallery_list img{
+	/*-webkit-box-shadow: none;
+		-moz-box-shadow: none;*/
+}
+.jumpLinks li,
+.portfolioGallery li{
+	float: left;
+	margin: 0 7px 25px 0;
+}
+.jumpLinks a{
+	color: #fff;
+	background: #999;
+	text-shadow: 0px 1px 0px #666;
+	filter: dropshadow(color=#666666,offX=0,offY=1);
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-top-left-radius: 6px;
+}
+.jumpLinks a:hover{
+	background: #888;
+	text-shadow: 0px 1px 0px #333;
+	filter: dropshadow(color=#333333,offX=0,offY=1);
+}
+small{
+    display: block;
+    color: #999;
+    font-size: 11px;
+}
+small a,
+small a:hover{
+    color: #999;
+	background: transparent;
+}
+small a:hover{
+	text-decoration: underline;
+}
+#post img, #index img, #home img{
+	max-width: 500px;
+}
+#post img, #index img, .photosCategory img, #home img, #portfolio img{
+	-webkit-box-shadow: 0px 0px 7px #ccc;
+	-moz-box-shadow: 0px 0px 7px #ccc;
+}
+#post h1, #index h1{
+    margin-top: 0;
+}
+#post li{
+	margin-bottom: 9px;
+}
+
+/* LAYOUT */
+#bio, #links, #listing{
+	width: 220px;
+}
+#bio, #links{
+	position: fixed;
+	left: 0;
+	top: 6px;
+}
+#bio{
+    margin: 0 0 30px;
+}
+#links{
+    top: 100px;
+}
+#links ul{
+	margin: 0 0 30px;
+}
+#content{
+	margin: 33px 0 0 250px;
+}
+#post, #home, #index{
+	margin-right: 250px;
+}
+#home{
+	width: 745px;
+	position: relative;
+}
+#listing{
+	float: right;
+}
+
+/* SECTIONS */
+#bio #name{
+	padding: 6px 12px;
+	background: #333;
+	color: #fff;
+	text-align: left;
+	font-size: 16px;
+}
+#bio #name:hover{
+	background: #222;
+	color: #eee;
+}
+#bio ul{
+    padding: 0;
+    list-style: none;
+}
+#bio li{
+    float: left;
+	margin: 0 0 0 2px;
+}
+#bio li a{
+    display: inline-block;
+	width: 25px;
+	height: 0;
+	padding-top: 25px;
+	overflow: hidden;
+}
+#bio #twitter a, #bio #lastfm a, #bio #flickr a, #bio #github a{
+    background-image: url(/images/sn.png);
+}
+#bio #twitter a:hover, #bio #lastfm a:hover, #bio #flickr a:hover, #bio #github a:hover{
+	background-color: transparent;
+}
+#bio #flickr a{background-position: 25px 0}
+#bio #flickr a:hover{background-position: 0 0}
+#bio #github a{background-position: 25px 75px}
+#bio #github a:hover{background-position: 0 75px}
+#bio #lastfm a{background-position: 25px 50px}
+#bio #lastfm a:hover{background-position: 0 50px}
+#bio #twitter a{background-position: 25px 25px}
+#bio #twitter a:hover{background-position: 0 25px}
+
+#categories a{
+	background: #929;
+	color: #fff;
+}
+#categories a:hover{
+	background: #727;
+}
+#services a{
+	background: #370;
+	color: #fff;
+}
+#services a:hover{
+	background: #316100;
+}
+#extras a{
+	background: #999;
+	color: #fff;
+}
+#extras a:hover{
+	background: #888;
+}
+
+#latest h3{
+	margin: 0 0 1.3em;
+}
+
+#listing{
+	text-align: right;
+}
+#listing a{
+	background: #999;
+	color: #fff;
+}
+#listing a:hover{
+	background: #888;
+}
+#listing .currentPost a,
+#listing .extraLink a{
+    background: #fff;
+    color: #999;
+    font-weight: bold;
+}
+#listing .currentPost a:hover,
+#listing .extraLink a:hover{
+    background: transparent;
+}
+
+#postNav{
+	font-size: 11px;
+	text-transform: uppercase;
+}
+#postNav .date{
+	color: #999;
+	padding: 0 0 0 3px;
+	font-weight: bold;
+}
+#share{
+	float: left;
+}
+
+#intro{
+	margin: 0 0 30px;
+	padding: 5px;
+	text-align: center;
+	background: #370;
+	color: #fff;
+	font-size: 12px;
+}
+#intro a{
+	color: #fff;
+	text-decoration: underline;
+	text-transform: capitalize;
+	padding: 0 2px;
+}
+#intro a.backLink{
+    text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 0;
+}
+
+#intro a:hover{
+	color: #370;
+	background: #fff;
+}
+
+#postActions{
+    padding: 10px 5px 5px;
+	margin: 30px 0 50px;
+	border-top: 1px dashed #929;
+	text-align: right;
+	font-size: 12px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #fff,  #eee); /* for firefox 3.6+ */
+}
+#postActions:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#postActions p{
+	margin: 0;
+}
+
+#related{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#related h5{
+	margin: 2px 0;
+}
+#related a{
+	color: #999;
+}
+#related a:hover{
+	color: #fff;
+	background: #999;
+}
+
+#index .navList{
+	font-size: 14px;
+}
+#index .navList li{
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 12px;
+}
+#index .navList .date{
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+#index .navList a{
+	padding-left: 0;
+}
+#index .navList a:hover{
+	background: transparent;
+	color: #370;
+}
+
+#mugshot{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 24px;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+}
+#home em{
+	font-style: normal;
+	padding: 0 3px;
+	background: #F8FABB;
+}
+#home h3{
+	margin-top: 10px;
+}
+#home .what_i_do div,
+#home .why_choose_me div{
+	float: left;
+	width: 330px;
+	margin-bottom: 30px;
+}
+#home .what_i_do .first,
+#home .why_choose_me .first{
+	margin: 0 60px 0 0;
+}
+#home .what_i_do a{
+	font-size: 12px;
+	color: #666;
+	display: block;
+	line-height: 1.4;
+}
+#home .what_i_do a:hover{
+	color: #333;
+	background: transparent;
+}
+#home .what_i_do a img{
+	display: block;
+	margin: 0 0 7px;
+	position: relative;
+}
+#home .why_choose_me li{
+	margin-bottom: 7px;
+}
+#home .work_categories{
+	color: #666;
+}
+#home .work_categories strong{
+	color: #333;
+}
+
+#portfolio h1{
+	margin-bottom: 3px;
+}
+#portfolio p.description{
+	font-size: 12px;
+	color: #666;
+	font-style: italic;
+	text-transform: lowercase;
+}
+.portfolioGallery img{
+	width: 100px;
+	border: 1px solid #eee;
+	cursor: pointer;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+}
+.portfolioGallery img:hover{
+	border: 1px solid #bbb;
+}

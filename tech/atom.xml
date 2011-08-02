@@ -1,0 +1,45 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	
+	{% include settings.html %}
+
+	<title>Tech &#9733; {{name}}</title>
+	<link href="http://{{root_url}}/tech/atom.xml" rel="self"/>
+	<link href="http://{{root_url}}/tech"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://{{root_url}}/tech</id>
+	<author>
+		<name>{{name}}</name>
+		<email>{{email}}</email>
+	</author>
+	
+	{% assign counter = 0 %}
+
+	{% for post in site.posts %}
+		{% if post.category contains "tech" %}
+			{% for r in (0..19) %}
+				{% unless counter == 0 %}
+					{% capture rString %}{{ r }}{% endcapture %}
+				{% endunless %}
+			
+				{% if counter == r or counter == rString %}
+					<entry>
+						<title>{{ post.title }}</title>
+						<link href="http://{{root_url}}{{ post.url }}"/>
+						<updated>{{ post.date | date_to_xmlschema }}</updated>
+						<id>http://{{root_url}}{{ post.id }}</id>
+						<content type="html">
+							{{ post.content | xml_escape }}
+						</content>
+					</entry>
+				{% endif %}
+			{% endfor %}
+			
+			{% capture counter %}{{ counter | plus: 1 }}{% endcapture %}
+		{% endif %}
+	{% endfor %}
+</feed>

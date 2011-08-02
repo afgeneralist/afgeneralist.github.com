@@ -1,0 +1,69 @@
+{% include settings.html %}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="{{meta_description}}" />
+
+	<title>{{ page.title }}{% if page.title %} &#9733; {% endif %}{{name}}</title>
+
+	<link rel="alternate" type="application/rss+xml" title="Subscribe to Everything" href="/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="&#8250; Subscribe to Journal only" href="/journal/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="&#8250; Subscribe to Tech Writings only" href="/tech/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="&#8250; Subscribe to Photos only" href="/photos/atom.xml" />
+	
+	<link rel="stylesheet" href="/css/global.css" type="text/css" media="screen" title="{{name}}" charset="utf-8" />
+	<link rel="stylesheet" href="/css/syntax.css" type="text/css" media="screen" charset="utf-8" />
+	<link rel="stylesheet" href="/css/shadowbox.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<!--
+		Hello Code-Reader! This website is built using "you.github.com" - by Sumeet Jain.
+		It's a simple website shell using Jekyll and is (probably) hosted with GitHub Pages.
+		Check it out if you're curious: https://github.com/sumeetjain/you.github.com
+	 -->
+	
+	{% include ga.html %}
+</head>
+
+<body>
+	<div id="bio">
+		<a href="/" id="name">{{name}}</a>
+		<ul class="clearfix">
+			<li id="lastfm"><a href="http://last.fm/user/{{last_fm}}" title="Last.fm">Last.fm</a></li>
+			<li id="flickr"><a href="http://flickr.com/photos/{{flickr}}" title="Flickr">Flickr</a></li>
+			<li id="github"><a href="http://github.com/{{github}}" title="GitHub">GitHub</a></li>
+			<li id="twitter"><a href="http://twitter.com/{{twitter}}" title="Twitter">Twitter</a></li>
+		</ul>
+	</div>
+	
+	<div id="links">
+		<ul id="extras" class="navList">
+			<li><a href="/about.html">About me</a></li>
+		</ul>
+		
+		<ul id="categories" class="navList">
+			<li><a href="/journal" title="Writing on various subjects">Journal</a></li>
+			<li><a href="/tech" title="Tech-oriented blog">Tech Writings</a></li>
+			<li><a href="/photos" title="My photo blog">Photos</a></li>
+		</ul>
+
+		<ul id="services" class="navList">
+			<li><a href="mailto:{{email}}">Email me</a></li>
+			<li><a href="/atom/xml" title="Get notified when the site is updated">Subscribe to RSS</a></li>
+			<!-- <li><a href="http://feedburner.google.com/fb/a/mailverify?uri={{feedburner_slug}}" title="Get notified by email when the site is updated">Subscribe by Email</a></li> -->
+		</ul>
+	</div>
+	
+	<div id="content" class="clearfix">
+		<div id="home">	
+			<h1>&#9760; *GASP* &#9760;</h1>
+
+			<p>Sorry - the page you're looking for can't be found.</p>
+			<p>It's probably my fault - I'm careless with permalinks and redesigns. But, just in case, check the URL to make sure nothing is spelled incorrectly. Or try Googling for what you're looking for. If you still can't find it, please accept my sincere apologies.</p>
+		</div>
+	</div>
+</body>
+</html>
