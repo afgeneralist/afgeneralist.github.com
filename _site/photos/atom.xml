@@ -12,27 +12,24 @@
 
 
 
-
-
-
-	<title>Photos &#9733; Sumeet Jain</title>
-	<link href="http://sumeetjain.com/photos/atom.xml" rel="self"/>
-	<link href="http://sumeetjain.com/photos"/>
-	<updated>2011-08-02T14:43:35-05:00</updated>
-	<id>http://sumeetjain.com/photos</id>
+	<title>Photos &#9733; Antonio Fernandez</title>
+	<link href="http://tony.com/photos/atom.xml" rel="self"/>
+	<link href="http://tony.com/photos"/>
+	<updated>2011-10-07T10:34:56+02:00</updated>
+	<id>http://tony.com/photos</id>
 	<author>
-		<name>Sumeet Jain</name>
-		<email>hello@sumeetjain.com</email>
+		<name>Antonio Fernandez</name>
+		<email>antonio.fernandez6@gmail.com</email>
 	</author>
 
 	
 	<entry>
 		<title>Example Photo Post</title>
-		<link href="http://sumeetjain.com/photos/2011/08/02/example-photo-post.html"/>
-		<updated>2011-08-02T00:00:00-05:00</updated>
-		<id>http://sumeetjain.com/photos/2011/08/02/example-photo-post</id>
+		<link href="http://tony.com/photos/2011/08/02/example-photo-post.html"/>
+		<updated>2011-08-02T00:00:00+02:00</updated>
+		<id>http://tony.com/photos/2011/08/02/example-photo-post</id>
 		<content type="html">
-			&lt;p&gt;&lt;img src='http://farm4.static.flickr.com/3134/2395687738_4a1e8f180b_z.jpg' alt='' /&gt;&lt;/p&gt;
+			&lt;p&gt;&lt;img alt='' src='http://farm4.static.flickr.com/3134/2395687738_4a1e8f180b_z.jpg' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Diwali in India is unlike any holiday or celebration in the western world. An entire country&amp;#8217;s population (Unlike Christmas in the States, &lt;em&gt;everyone&lt;/em&gt; participates in Diwali.) lights up their houses inside and outside; some use little candles to create bright outlines around their homes. Everyone gives each other gifts; new clothes are worn; fantastic dinners are eaten.&lt;/p&gt;
 

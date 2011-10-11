@@ -1,0 +1,35 @@
+<div class="what_i_do clearfix">
+	<div class="first">
+		<h3>Project 1:</h3>
+		<a href="/portfolio/work/project1.html" rel="lightbox[Projects]; width=700">
+			<img src="/images/portfolio/project1_tn.png" alt="Project 1 Thumbnail" />
+			Online diagnosis for a major healthcare provider - I vetted the designs, implemented the mockups, and integrated the designs into a Java framework.
+		</a>
+	</div>
+	
+	<div>
+		<h3>Project 2:</h3>
+		<a href="/portfolio/work/project2.html" rel="lightbox[Projects]; width=700">
+			<img src="/images/portfolio/project2_tn.png" alt="Project 2 Thumbnail" />
+			I managed brand development, designed the website, and integrated the design into a Shopify theme. I also designed marketing materials like flyers, business cards, and online ads.
+		</a>
+	</div>
+</div>
+
+<div class="what_i_do clearfix">
+	<div class="first">
+		<h3>Project 3:</h3>
+		<a href="/portfolio/work/project3.html" rel="lightbox[Projects]; width=700">
+			<img src="/images/portfolio/project3_tn.png" alt="Project 3 Thumbnail" />
+			Implemented HTML/CSS/Javascript design from mockups.
+		</a>
+	</div>
+	
+	<div>
+		<h3>Project 4:</h3>
+		<a href="/portfolio/work/project4.html" rel="lightbox[Projects]; width=700">
+			<img src="/images/portfolio/project4_tn.png" alt="Project 4 Thumbnail" />
+			Designed and built custom online registration system for the organization's annual music showcase.
+		</a>
+	</div>
+</div>

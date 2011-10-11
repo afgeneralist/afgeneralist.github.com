@@ -12,28 +12,25 @@
 
 
 
-
-
-
-	<title>Sumeet Jain</title>
-	<link href="http://sumeetjain.com/atom.xml" rel="self"/>
-	<link href="http://sumeetjain.com/"/>
-	<updated>2011-08-02T14:43:35-05:00</updated>
-	<id>http://sumeetjain.com/</id>
+	<title>Antonio Fernandez</title>
+	<link href="http://tony.com/atom.xml" rel="self"/>
+	<link href="http://tony.com/"/>
+	<updated>2011-10-07T10:34:56+02:00</updated>
+	<id>http://tony.com/</id>
 	<author>
-		<name>Sumeet Jain</name>
-		<email>hello@sumeetjain.com</email>
+		<name>Antonio Fernandez</name>
+		<email>antonio.fernandez6@gmail.com</email>
 	</author>
 
 	
 		
 		<entry>
 			<title>Example Photo Post</title>
-			<link href="http://sumeetjain.com/photos/2011/08/02/example-photo-post.html"/>
-			<updated>2011-08-02T00:00:00-05:00</updated>
-			<id>http://sumeetjain.com/photos/2011/08/02/example-photo-post</id>
+			<link href="http://tony.com/photos/2011/08/02/example-photo-post.html"/>
+			<updated>2011-08-02T00:00:00+02:00</updated>
+			<id>http://tony.com/photos/2011/08/02/example-photo-post</id>
 			<content type="html">
-				&lt;p&gt;&lt;img src='http://farm4.static.flickr.com/3134/2395687738_4a1e8f180b_z.jpg' alt='' /&gt;&lt;/p&gt;
+				&lt;p&gt;&lt;img alt='' src='http://farm4.static.flickr.com/3134/2395687738_4a1e8f180b_z.jpg' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Diwali in India is unlike any holiday or celebration in the western world. An entire country&amp;#8217;s population (Unlike Christmas in the States, &lt;em&gt;everyone&lt;/em&gt; participates in Diwali.) lights up their houses inside and outside; some use little candles to create bright outlines around their homes. Everyone gives each other gifts; new clothes are worn; fantastic dinners are eaten.&lt;/p&gt;
 
@@ -45,9 +42,9 @@
 		
 		<entry>
 			<title>Example Tech Post</title>
-			<link href="http://sumeetjain.com/tech/2011/08/01/example-tech-post.html"/>
-			<updated>2011-08-01T00:00:00-05:00</updated>
-			<id>http://sumeetjain.com/tech/2011/08/01/example-tech-post</id>
+			<link href="http://tony.com/tech/2011/08/01/example-tech-post.html"/>
+			<updated>2011-08-01T00:00:00+02:00</updated>
+			<id>http://tony.com/tech/2011/08/01/example-tech-post</id>
 			<content type="html">
 				&lt;p&gt;A couple days ago, I published my &lt;a href='http://github.com/sumeetjain/jquery-markdown-footnotes'&gt;first open source project&lt;/a&gt;. It&amp;#8217;s tiny and useful only for a small group of people, but I made it myself and am proud of it - and I&amp;#8217;m certain it&amp;#8217;s the first of many. Anyways, today I saw that someone forked it on GitHub. I cannot hope to describe how exciting that is, but I&amp;#8217;ll try.&lt;/p&gt;
 
@@ -70,15 +67,15 @@
 		
 		<entry>
 			<title>Example Multi-Category Post</title>
-			<link href="http://sumeetjain.com/journal/tech/2011/07/30/example-multi-category-post.html"/>
-			<updated>2011-07-30T00:00:00-05:00</updated>
-			<id>http://sumeetjain.com/journal/tech/2011/07/30/example-multi-category-post</id>
+			<link href="http://tony.com/journal/tech/2011/07/30/example-multi-category-post.html"/>
+			<updated>2011-07-30T00:00:00+02:00</updated>
+			<id>http://tony.com/journal/tech/2011/07/30/example-multi-category-post</id>
 			<content type="html">
 				&lt;p&gt;It&amp;#8217;s gift-buying time. And whether your process involves driving to a local retailer, browsing Amazon, or scouring Craigslist, you&amp;#8217;re likely to be inundated with so much choice that you&amp;#8217;ll spend most of your time researching to find the best products and deals.&lt;/p&gt;
 
 &lt;p&gt;This is always a source of frustration for shoppers, because most of the time people just want a good value: Something with slightly above-average performance and a reasonable price. And even helpful reviews on Amazon or sites like CNET don&amp;#8217;t narrow the possibilities down to a manageable two or three.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src='http://f.cl.ly/items/b0350b6b2dca2a1427d7/kallow.png' alt='Kallow' /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt='Kallow' src='http://f.cl.ly/items/b0350b6b2dca2a1427d7/kallow.png' /&gt;&lt;/p&gt;
 
 &lt;p&gt;Caleb and Jordan at &lt;a href='http://www.kallow.com'&gt;Kallow&lt;/a&gt; have discovered what I think could be a useful idea - especially at this time of the year: They&amp;#8217;ve chosen 22 product categories (like &lt;em&gt;Digital Camera&lt;/em&gt;, &lt;em&gt;Headphones&lt;/em&gt;, and even &lt;em&gt;Laptop&lt;/em&gt;), researched each - taking into account performance, ease of use, and price - and then listed &lt;strong&gt;one&lt;/strong&gt; recommendation for each category.&lt;/p&gt;
 
@@ -98,9 +95,9 @@
 		
 		<entry>
 			<title>Example Journal Post</title>
-			<link href="http://sumeetjain.com/journal/2011/07/26/example-journal-post.html"/>
-			<updated>2011-07-26T00:00:00-05:00</updated>
-			<id>http://sumeetjain.com/journal/2011/07/26/example-journal-post</id>
+			<link href="http://tony.com/journal/2011/07/26/example-journal-post.html"/>
+			<updated>2011-07-26T00:00:00+02:00</updated>
+			<id>http://tony.com/journal/2011/07/26/example-journal-post</id>
 			<content type="html">
 				&lt;p&gt;Leif Ericson Middle School doesn&amp;#8217;t educate students beyond the sixth grade. When I attended, the graduating class was to sing &lt;em&gt;I Believe I Can Fly&lt;/em&gt; by R. Kelly. The preparation for this event was a source of annoyance and embarrassment for the students participating, but that&amp;#8217;s not relevant right now.&lt;/p&gt;
 
