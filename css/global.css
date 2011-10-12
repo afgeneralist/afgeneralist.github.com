@@ -137,6 +137,7 @@ small a:hover{
 }
 #post img, #index img, #home img{
 	max-width: 500px;
+	border: 1px;
 }
 #post img, #index img, .photosCategory img, #home img, #portfolio img{
 	-webkit-box-shadow: 0px 0px 7px #ccc;
