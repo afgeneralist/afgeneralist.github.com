@@ -12,28 +12,24 @@
 
 
 
-	<title>Photos &#9733; Antonio Fernandez</title>
-	<link href="http://tony.com/photos/atom.xml" rel="self"/>
-	<link href="http://tony.com/photos"/>
-	<updated>2011-10-12T16:31:33+02:00</updated>
-	<id>http://tony.com/photos</id>
+	<title>Photos &#9733; Tony Fernandez</title>
+	<link href="http://tonyfer.com/photos/atom.xml" rel="self"/>
+	<link href="http://tonyfer.com/photos"/>
+	<updated>2011-10-12T20:00:54+02:00</updated>
+	<id>http://tonyfer.com/photos</id>
 	<author>
-		<name>Antonio Fernandez</name>
-		<email>antonio.fernandez6@gmail.com</email>
+		<name>Tony Fernandez</name>
+		<email>tony@tonyfer.com</email>
 	</author>
 
 	
 	<entry>
 		<title>Example Photo Post</title>
-		<link href="http://tony.com/photos/2011/08/02/example-photo-post.html"/>
+		<link href="http://tonyfer.com/photos/2011/08/02/example-photo-post.html"/>
 		<updated>2011-08-02T00:00:00+02:00</updated>
-		<id>http://tony.com/photos/2011/08/02/example-photo-post</id>
+		<id>http://tonyfer.com/photos/2011/08/02/example-photo-post</id>
 		<content type="html">
-			&lt;p&gt;&lt;img alt='' src='http://farm4.static.flickr.com/3134/2395687738_4a1e8f180b_z.jpg' /&gt;&lt;/p&gt;
-
-&lt;p&gt;Diwali in India is unlike any holiday or celebration in the western world. An entire country&amp;#8217;s population (Unlike Christmas in the States, &lt;em&gt;everyone&lt;/em&gt; participates in Diwali.) lights up their houses inside and outside; some use little candles to create bright outlines around their homes. Everyone gives each other gifts; new clothes are worn; fantastic dinners are eaten.&lt;/p&gt;
-
-&lt;p&gt;And fireworks. Oh, the fireworks. They go all day - and all night. Don&amp;#8217;t even try sleeping. Just join your family on the rooftop and enjoy the show.&lt;/p&gt;
+			
 		</content>
 	</entry>
 	

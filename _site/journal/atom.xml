@@ -12,14 +12,14 @@
 
 
 
-	<title>Journal &#9733; Antonio Fernandez</title>
-	<link href="http://tony.com/journal/atom.xml" rel="self"/>
-	<link href="http://tony.com/journal"/>
-	<updated>2011-10-12T16:31:33+02:00</updated>
-	<id>http://tony.com/journal</id>
+	<title>Journal &#9733; Tony Fernandez</title>
+	<link href="http://tonyfer.com/journal/atom.xml" rel="self"/>
+	<link href="http://tonyfer.com/journal"/>
+	<updated>2011-10-12T20:00:54+02:00</updated>
+	<id>http://tonyfer.com/journal</id>
 	<author>
-		<name>Antonio Fernandez</name>
-		<email>antonio.fernandez6@gmail.com</email>
+		<name>Tony Fernandez</name>
+		<email>tony@tonyfer.com</email>
 	</author>
 		
 	
@@ -36,27 +36,11 @@
 				
 					<entry>
 						<title>Example Multi-Category Post</title>
-						<link href="http://tony.com/journal/tech/2011/07/30/example-multi-category-post.html"/>
+						<link href="http://tonyfer.com/journal/tech/2011/07/30/example-multi-category-post.html"/>
 						<updated>2011-07-30T00:00:00+02:00</updated>
-						<id>http://tony.com/journal/tech/2011/07/30/example-multi-category-post</id>
+						<id>http://tonyfer.com/journal/tech/2011/07/30/example-multi-category-post</id>
 						<content type="html">
-							&lt;p&gt;It&amp;#8217;s gift-buying time. And whether your process involves driving to a local retailer, browsing Amazon, or scouring Craigslist, you&amp;#8217;re likely to be inundated with so much choice that you&amp;#8217;ll spend most of your time researching to find the best products and deals.&lt;/p&gt;
-
-&lt;p&gt;This is always a source of frustration for shoppers, because most of the time people just want a good value: Something with slightly above-average performance and a reasonable price. And even helpful reviews on Amazon or sites like CNET don&amp;#8217;t narrow the possibilities down to a manageable two or three.&lt;/p&gt;
-
-&lt;p&gt;&lt;img alt='Kallow' src='http://f.cl.ly/items/b0350b6b2dca2a1427d7/kallow.png' /&gt;&lt;/p&gt;
-
-&lt;p&gt;Caleb and Jordan at &lt;a href='http://www.kallow.com'&gt;Kallow&lt;/a&gt; have discovered what I think could be a useful idea - especially at this time of the year: They&amp;#8217;ve chosen 22 product categories (like &lt;em&gt;Digital Camera&lt;/em&gt;, &lt;em&gt;Headphones&lt;/em&gt;, and even &lt;em&gt;Laptop&lt;/em&gt;), researched each - taking into account performance, ease of use, and price - and then listed &lt;strong&gt;one&lt;/strong&gt; recommendation for each category.&lt;/p&gt;
-
-&lt;p&gt;According to them, if you&amp;#8217;re looking for a good deal on a digital camera, you can&amp;#8217;t go wrong with the &lt;a href='http://www.kallow.com/personal-electronics/digital-camera'&gt;Canon PowerShot SD790IS for $179.99&lt;/a&gt;. That&amp;#8217;s a good value, and for the vast majority of shoppers who don&amp;#8217;t care about 3x versus 4x optical zoom, 8 megapixel versus 10 megapixel, and Canon versus Panasonic, it&amp;#8217;s a done deal.&lt;/p&gt;
-
-&lt;p&gt;The beauty of Kallow is that it&amp;#8217;s either a conclusion or a beginning. That is, you might look at Kallow and immediately decide to buy the recommended product. So it&amp;#8217;s the conclusion of your shopping cycle. But some users can use Kallow as the beginning of their shopping cycle by following the product recommendation to Amazon, viewing similar products, and eventually choosing a competitor&amp;#8217;s product. The moral of the story is that you&amp;#8217;re more likely to find a quality deal by beginning your search with a good product than if you began your search from scratch.&lt;/p&gt;
-
-&lt;p&gt;I&amp;#8217;m curious to see how the site develops after the holiday season. While cleanliness and simplicity are integral to the site, it goes without saying that more product categories are a must. But beyond that, I think adding a premium level to each category would draw in more of the power-user audience. Properly implemented, such a feature wouldn&amp;#8217;t have to detract from the site&amp;#8217;s ease of use.&lt;/p&gt;
-
-&lt;p&gt;The decision to get prices from and link to Amazon is also something that I think will require revision. It&amp;#8217;s not uncommon for buyers to find better prices at smaller shops. If Kallow is really about recommending quality deals and saving consumers time, it should link to the best deal at a reliable online retailer. Of course, this flies in the face of Kallow&amp;#8217;s &lt;a href='http://sumeetjain.com/little-wisdoms/320/'&gt;business model&lt;/a&gt; (They make money by getting paid every time someone buys one of their recommended products on Amazon.), but I&amp;#8217;m sure Jordan and Caleb can think of some other way to stay in the black.&lt;/p&gt;
-
-&lt;p&gt;Check out &lt;a href='http://www.kallow.com'&gt;Kallow&lt;/a&gt; for yourself, and let me know what you think. Were the recommendations helpful either as conclusions or beginnings? What product categories would you liked to have seen that weren&amp;#8217;t available? Did you tell anyone you know about Kallow?&lt;/p&gt;
+							
 						</content>
 					</entry>
 				
@@ -156,43 +140,11 @@
 				
 					<entry>
 						<title>Example Journal Post</title>
-						<link href="http://tony.com/journal/2011/07/26/example-journal-post.html"/>
+						<link href="http://tonyfer.com/journal/2011/07/26/example-journal-post.html"/>
 						<updated>2011-07-26T00:00:00+02:00</updated>
-						<id>http://tony.com/journal/2011/07/26/example-journal-post</id>
+						<id>http://tonyfer.com/journal/2011/07/26/example-journal-post</id>
 						<content type="html">
-							&lt;p&gt;Leif Ericson Middle School doesn&amp;#8217;t educate students beyond the sixth grade. When I attended, the graduating class was to sing &lt;em&gt;I Believe I Can Fly&lt;/em&gt; by R. Kelly. The preparation for this event was a source of annoyance and embarrassment for the students participating, but that&amp;#8217;s not relevant right now.&lt;/p&gt;
-
-&lt;p&gt;One day, during rehearsal, a rare moment of revelry was permitted to continue beyond a few seconds. A friend - Alex Stollar - began singing a parody of R. Kelly&amp;#8217;s song. He was making it up on the spot, and the class was eating it up. Alex was very popular, but whether this contributed to his song&amp;#8217;s positive reception is not clear. Regardless, I was jealous of Alex&amp;#8217;s popularity, so I decided to one-up his song by singing my own immediately after he finished.&lt;/p&gt;
-
-&lt;p&gt;For your reference, the actual lyrics of the song are:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I believe I can fly I believe I can touch the sky I think about it every night and day Spread my wings and fly away&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I&amp;#8217;m not a song-writer or a singer, but moments of desperation can bring out strengths we do not know we possess. I sang:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;I believe I can &lt;em&gt;run&lt;/em&gt; I believe I touch the &lt;em&gt;sun&lt;/em&gt; I think about it every night and day &lt;em&gt;Spread my legs and have some fun&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If you&amp;#8217;re even a little bit shocked right now, you&amp;#8217;re far less sheltered than I was in the sixth grade. My brilliantly spontaneous song and plan had backfired. With the last line of the stanza, the class fell silent. All eyes turned in my direction. Our teacher Ms. Robertson, a tall blond woman with unnecessarily sharp features, stared at me with wide-open eyes.&lt;/p&gt;
-
-&lt;p&gt;I was paralyzed. I had expected - in order of preference - either glory, quiet chuckles, or quick dismissal. But this response was completely unforeseen! Whispers filled the room, some girls were snickering at me from the corner, not even my friends were laughing at my parody, and the stupid R. Kelly song was still playing on the stereo.&lt;/p&gt;
-
-&lt;p&gt;Frozen in time, I slowly evaluated the situation. Clearly, my song had some evil power of which I was unaware. No one was hitting me, I hadn&amp;#8217;t wet my pants or thrown up, and my grades were fine; so survival was not at risk. I decided there could be no harm in asking my teacher what I&amp;#8217;d said that was so egregious.&lt;/p&gt;
-
-&lt;p&gt;I turned to Ms. Robertson, and - before I could open my mouth - she screamed at me in an awful, angry, male voice, &amp;#8220;What are you doing! What did you just say!&amp;#8221; I would have liked to answer, but her anger petrified me. She continued to berate me in front of the class. It seemed like hours, but I doubt the scolding lasted for even a minute.&lt;/p&gt;
-
-&lt;p&gt;Eventually, the class decided what was to be seen had been seen; so they returned to their work. Rehearsal was over the day. When I got home in the afternoon, I mentioned nothing of the crime I&amp;#8217;d committed. I just did my homework while trying to figure out exactly what I&amp;#8217;d done wrong.&lt;/p&gt;
-
-&lt;p&gt;I never told anyone the story, so I never found out what was so terrible about my parody. Obviously, as I grew older I learned how the song could be construed to have illicit meaning. Today, the memory is source of laughter for me.&lt;/p&gt;
-
-&lt;p&gt;But I do wish I could bottle up the feelings of confusion, shame, fear, and anger that I felt that day - and give the bottle to anyone who interacts with children. These were the feelings of an innocent boy who was beaten down for a misdeed he did not understand.&lt;/p&gt;
-
-&lt;p&gt;I wonder how many children are too scared to ask what they&amp;#8217;ve done wrong when they&amp;#8217;re scolded. Why are people so quick to make assumptions upon which negative conclusions depend?&lt;/p&gt;
-
-&lt;p&gt;A plea to educators, parents, siblings, friends, strangers: Always be listening. Always be teaching.&lt;/p&gt;
+							
 						</content>
 					</entry>
 				
