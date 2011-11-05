@@ -1,0 +1,7 @@
+--- 
+layout: post
+category: [journal]
+title: "I am thankful for the Kahn Academy..."
+---
+
+The <a hrer="http://kahnacademy.org">Kahn Academy</a> is an online learning platform and non-profit organization on a mission to provide world-class education to anyone everywhere. There are over 2600 videos covering everything from arithmetic, computer programming, to Physics. It all started by a fellow that goes by the name of Sal, by publishing instructional math videos for his cousins having trouble in class over YouTube. People started watching and requesting more videos. It took off from there. I urge you to check out his <a href="http://www.khanacademy.org/about/faq">story</a>. Sal taught me about the Elements of Atoms. What will he teach you?
