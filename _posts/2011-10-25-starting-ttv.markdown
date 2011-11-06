@@ -1,7 +1,7 @@
 --- 
 layout: post
 category: [journal, tech]
-title: "Tetúan Valley Startup School"
+title: "Tetuan Valley Startup School"
 ---
 
 Well I haven't been posting at all and I'm feeling guilty about it since I just got my site up and haven't provided any new content. In any case, for the past month or so I've been running around Madrid attending different technology related events. I've written about a few of them for <a href="http://www.eu-startups.com">EU-Startups.com</a>. Well one group of people that I've come in contact with a few times is Tetúan Valley, a non-profit startup incubator. I discovered them a few months ago when I was still living in the states while researching the startup scene in Madrid. It was obvious to me they were doing interesting things to help cultivate the startup ecosystem and knew that I needed to get in touch with them when I moved over here. 

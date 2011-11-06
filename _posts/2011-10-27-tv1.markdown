@@ -1,7 +1,7 @@
 --- 
 layout: post
 category: [journal, tech]
-title: "Tetúan Valley Startup School: Day 1"
+title: "Tetuan Valley Startup School: Day 1"
 ---
 
 Tetuan Valley Day 1
