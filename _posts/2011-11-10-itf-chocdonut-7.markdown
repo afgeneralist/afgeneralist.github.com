@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 post: [journal]
 title: "Yum"
 ---
