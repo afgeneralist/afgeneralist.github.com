@@ -1,6 +1,6 @@
 ---
 layout: post
-post: [journal]
+category: [journal]
 title: "Yum"
 ---
 
