@@ -10,4 +10,4 @@ I am thankful for the bakery that is 30 yards from my door...
 
 
 
-This blog post is part of a 30 day promise I made to myself that I shared with my family and friends. Go here to read the original <a href="/journal/2011/11/10/itf-chocdonut-7.html">post</a>. 
+This blog post is part of a 30 day promise I made to myself that I shared with my family and friends. Go here to read the original <a href="/journal/2011/11/03/art-of-accountability.html">post</a>. 
