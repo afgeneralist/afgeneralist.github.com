@@ -9,3 +9,6 @@ If you have never heard of Evernote, I recommend you do some research to figure 
 There is a little bit of a learning curve in how you might try to implement it into your life. Having a system helps a lot. If anyone has any questions and or need some suggestions please feel free to ask.
 
 I am thankful for Evernote...
+
+
+This blog post is part of a 30 day promise I made to myself that I shared with my family and friends. Go here to read the original <a href="/journal/2011/11/03/art-of-accountability.html">post</a>. 

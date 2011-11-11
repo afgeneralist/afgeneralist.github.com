@@ -10,3 +10,6 @@ I know, who isn't, right? Today, Sarah and I went to Malisaña near Gran Via, wh
 
 Thinking about it, I am not even sure the last time I had carrot cake.  
 
+
+This blog post is part of a 30 day promise I made to myself that I shared with my family and friends. Go here to read the original <a href="/journal/2011/11/03/art-of-accountability.html">post</a>. 
+
