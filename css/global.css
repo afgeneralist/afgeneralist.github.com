@@ -421,6 +421,9 @@ small a:hover{
 #portfolio h1{
 	margin-bottom: 3px;
 }
+#portfolio h4{
+	font-size: 18px;
+}
 #portfolio p.description{
 	font-size: 12px;
 	color: #666;
