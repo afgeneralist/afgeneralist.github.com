@@ -421,7 +421,7 @@ small a:hover{
 #portfolio h1{
 	margin-bottom: 3px;
 }
-#portfolio h5{
+#portfolio .first h5{
 	font-size: 30px;
 }
 #portfolio p.description{
