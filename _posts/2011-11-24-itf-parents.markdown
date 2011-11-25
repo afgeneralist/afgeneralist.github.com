@@ -1,7 +1,7 @@
 ---
 layout: post
 category: [journal]
-title: "Goble goble"
+title: "Gobble gobble"
 ---
 
 I do miss not being home for Thanksgiving. By this time, I would have stuffed my face with enough of calories to supplement me for the whole week. But what I miss most is being all together with the family. However, it's become normal that the family isn't all together for the holiday's. My brothers and I have been doing some pretty cool things. And it is thanks to our parents that we are doing the things we do. They've made us who we are, and I am forever thankful for what they've done for me. Endless sacrifices. 
